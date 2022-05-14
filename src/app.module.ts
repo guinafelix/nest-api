@@ -13,7 +13,7 @@ import { CoursesModule } from './courses/courses.module';
       port: 5432,
       username: 'postgres',
       password: 'docker',
-      database: 'postgres',
+      database: 'apivendas',
       autoLoadEntities: true,
       synchronize: true,
     }),
