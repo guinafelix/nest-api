@@ -25,7 +25,7 @@ services:
       - POSTGRES_PASSWORD=docker
       - POSTGRES_DB=cursonestjs
 
-  pdadmin:
+  pgadmin:
     image: dpage/pgadmin4
     container_name: cursonestjs-pgadmin
     tty: true
